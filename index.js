@@ -1,22 +1,22 @@
 const express = require("express");
 const app = express();
+app.set("view engine", "ejs");
 app.use(express.static("public"));
 
-
 app.get("/",(req,res)=>{
-    res.sendFile(__dirname+"/views/index.html")
+    res.render("index")
 })
 
 app.get("/our",(req,res)=>{
-    res.sendFile(__dirname+"/views/our.html")
+    res.render("our")
 })
 
 app.get("/who",(req,res)=>{
-    res.sendFile(__dirname+"/views/who.html")
+    res.render("who")
 })
 
 app.get("/work",(req,res)=>{
-    res.sendFile(__dirname+"/views/work.html")
+    res.render("work")
 })
 
 app.listen(3000,()=>{
