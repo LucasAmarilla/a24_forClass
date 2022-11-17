@@ -28,7 +28,7 @@ Install dependencies
 
 ```bash
   npm init
-  npm install express
+  npm install express ejs
 ```
 
 Start the server
@@ -67,7 +67,7 @@ Instale as dependencias
 
 ```bash
   npm init
-  npm install express
+  npm install express ejs
 ```
 
 Rode o servidor
