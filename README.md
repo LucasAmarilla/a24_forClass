@@ -49,7 +49,7 @@ Um site simples feito com HTML e CSS na aula de intro a web no IFMS e portado pa
 - [@LucasAmarilla](https://www.github.com/LucasAmarilla)
 
 
-## Rodando o proketo
+## Rodando o projeto
 
 Clone o projeto
 
